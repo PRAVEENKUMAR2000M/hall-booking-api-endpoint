@@ -1,0 +1,172 @@
+{
+    "room": [
+        {
+            "room_Id": 1,
+            "room_Name": "a1",
+            "amenities": [
+                "Complimentary water",
+                "TV with cable",
+                "Ironing capabilities",
+                "Telephone",
+                "Luggages storage",
+                "Air conditioning",
+                "Towels",
+                "Dining options",
+                "Swimming pool",
+                "Parking",
+                "Hangers",
+                "Hair Dryer",
+                "Toiletries",
+                "Combs",
+                "Bathrobes",
+                "Bathroom Slippers"
+            ],
+            "price_perHour": 1000,
+            "seats": 50,
+            "booked_Status": true,
+            "booking_Confirmation_Id": [
+                "lqvmdf1633tfsz4or",
+                "lqvmjpcu18vqjuz0m"
+            ]
+        },
+        {
+            "room_Id": 2,
+            "room_Name": "a2",
+            "amenities": [
+                "Complimentary water",
+                "Dining options",
+                "Swimming pool",
+                "Parking",
+                "Hair Dryer",
+                "Toiletries",
+                "Bathroom Slippers"
+            ],
+            "price_perHour": 1500,
+            "seats": 80,
+            "booked_Status": true,
+            "booking_Confirmation_Id": [
+                "lqvl2a05311dvi7u2"
+            ]
+        },
+        {
+            "room_Id": 3,
+            "room_Name": "a3",
+            "amenities": [
+                "Parking",
+                "Hair Dryer",
+                "Toiletries",
+                "Bathroom Slippers"
+            ],
+            "price_perHour": 500,
+            "seats": 30,
+            "booked_Status": false,
+            "booking_Confirmation_Id": []
+        },
+        {
+            "room_Id": 4,
+            "room_Name": "a4",
+            "amenities": [
+                "Complimentary water",
+                "TV with cable",
+                "Ironing capabilities",
+                "Telephone",
+                "Luggages storage"
+            ],
+            "price_perHour": 800,
+            "seats": 40,
+            "booked_Status": false,
+            "booking_Confirmation_Id": []
+        },
+        {
+            "room_Id": 5,
+            "room_Name": "a5",
+            "amenities": [
+                "Complimentary water",
+                "TV with cable",
+                "Ironing capabilities",
+                "Telephone",
+                "Luggages storage",
+                "Air conditioning",
+                "Towels",
+                "Dining options",
+                "Swimming pool",
+                "Parking",
+                "Hangers",
+                "Hair Dryer",
+                "Toiletries",
+                "Combs",
+                "Bathrobes",
+                "Bathroom Slippers"
+            ],
+            "price_perHour": 2000,
+            "seats": 150,
+            "booked_Status": false,
+            "booking_Confirmation_Id": []
+        }
+    ],
+    "customer_Details": [
+        {
+            "customer_Id": 1,
+            "customer_Name": "John",
+            "customer_Email": "John@gmail.com",
+            "customer_Phone": 9600693684,
+            "date": 1704171599,
+            "start_Time": 1704171599,
+            "end_Time": 1704193199,
+            "room_Name": "A2",
+            "room_Id": 2
+        },
+        {
+            "customer_Id": 2,
+            "customer_Name": "Joel",
+            "customer_Email": "Joel@gmail.com",
+            "customer_Phone": 9944791095,
+            "date": 1704099599,
+            "start_Time": 1704099599,
+            "end_Time": 1704128399,
+            "room_Name": "A1",
+            "room_Id": 1
+        },
+        {
+            "customer_Id": 3,
+            "customer_Name": "jack",
+            "customer_Email": "jack@gmail.com",
+            "customer_Phone": 9945679109,
+            "date": 1709463599,
+            "start_Time": 1709463599,
+            "end_Time": 1709488799,
+            "room_Name": "A1",
+            "room_Id": 1
+        }
+    ],
+    "booking_Details": [
+        {
+            "booking_Id": 1,
+            "booking_Confirmation": "lqvl2a05311dvi7u2",
+            "date": 1704171599,
+            "room_Id": 2,
+            "customer_Id": 1
+        },
+        {
+            "booking_Id": 2,
+            "booking_Confirmation": "lqvmdf1633tfsz4or",
+            "date": 1704099599,
+            "room_Id": 1,
+            "customer_Id": 2
+        },
+        {
+            "booking_Id": 3,
+            "booking_Confirmation": "lqvmjpcu18vqjuz0m",
+            "date": 1709463599,
+            "room_Id": 1,
+            "customer_Id": 3
+        },
+        {
+            "booking_Id": 4,
+            "booking_Confirmation": "lqvmjpcu18vqjuz0m",
+            "date": 1709963599,
+            "room_Id": 1,
+            "customer_Id": 3
+        }
+    ]
+}
